@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NizamogluKonagi_Muze">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="328dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="30dp"
+        android:text="Nizamoğlu Konağı (Yozgat Müzesi)"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="413dp"
+        android:layout_height="235dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/muze" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="362dp"
+        android:layout_height="316dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="22dp"
+        android:text="Nizamoğlu Konağı’nın 1871 senesinden daha eski bir tarihte inşa edildiği tahmin edilmektedir. 1979 senesinde Kültür Bakanlığı tarafından restore eden bu tarihi konak, 1985 senesinde etnografya müzesi olarak ziyarete açılmıştır.
+                                            Konak, oldukça büyük bir bahçeye sahiptir ve dikdörtgen bir plan üzerine inşa edilmiştir. Şu anda konağın odaları teşhir salonu olarak kullanılmaktadır. "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

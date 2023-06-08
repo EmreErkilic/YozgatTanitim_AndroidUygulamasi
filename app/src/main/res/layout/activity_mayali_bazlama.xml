@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MayaliBazlama">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Mayalı Bazlama"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:srcCompat="@drawable/mayali_bazlama" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="347dp"
+        android:layout_height="228dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="21dp"
+        android:text="Normalde hamurun açılarak ince haliyle pişirildiği bazlama, Yozgat’ta içine maya katılarak kabartılarak pişiriliyor. Puf puf olan bazlamalar kahvaltıların baş tacıdır. Lezzeti ise tarif edilemeyecek kadar güzel!"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".YozgatTarihcesi">
+
+    <TextView
+        android:id="@+id/yozgatBaslik_ee"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="YOZGAT"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/Yozgatimg_ee"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        app:srcCompat="@drawable/yozgat_resim" />
+
+    <TextView
+        android:id="@+id/YozgatAciklama_ee"
+        android:layout_width="wrap_content"
+        android:layout_height="381dp"
+        android:layout_margin="11dp"
+        android:text=" Yozgat ve çevresi, antik dönemde Frigler, Persler, Helenistik Krallık, Romalılar ve Bizans İmparatorluğu gibi farklı medeniyetlerin egemenliği altında kalmıştır. Ticaret yollarının kavşağı olması nedeniyle stratejik bir öneme sahip olmuştur.
+                                                 Yozgat, 11. yüzyılda Büyük Selçuklu İmparatorluğu'nun hakimiyetine girmiştir. Selçuklu döneminde sınırların güvenliğini sağlamak ve yerleşim yeri olarak kullanılmıştır."
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArabasiCorbasi">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="397dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:text="Arabaşı Çorbası"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="414dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@drawable/arabasi_corbasi" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="377dp"
+        android:layout_height="276dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="Yozgat uzun kış gecelerinde akşam yemeğinden sonra ve yatmadan önce yapılan sohbetler esnasında ikram edilen bir çeşit ara öğün yemeğidir. Bu sebeple yemeğin asıl adı “ara aşı” olmasına rağmen halk ağzında söylene söylene arabaşı şeklini almıştır. Malzeme olarak un, su ve tuz kullanılır."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+</androidx.constraintlayout.widget.ConstraintLayout>

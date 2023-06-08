@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MisirTatlisi">
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="216dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Mısır Tatlısı"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="411dp"
+        android:layout_height="404dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
+        app:srcCompat="@drawable/misir_tatlisi" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="326dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="33dp"
+        android:text="Mısır tatlısı, mısırın doğal tatlılığını ve kıvamını kullanarak yapılan hafif ve lezzetli bir tatlıdır. Mısır tatlısı genellikle sıcak servis edilir ve üzerine dondurma, karamel sosu veya taze meyve gibi malzemeler eklenerek servis yapılabilir."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+</androidx.constraintlayout.widget.ConstraintLayout>

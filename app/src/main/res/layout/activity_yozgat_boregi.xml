@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YozgatBoregi">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Yozgat Böreği"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="410dp"
+        android:layout_height="424dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:srcCompat="@drawable/yozgat_boregi" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="327dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="36dp"
+        android:text="Yozgat’ın lezzet bombalarından bir diğeri ise Yozgat Böreği. Ispanak ve pastırmanın harika uyumunu deneyimleyeceğiniz bu böreğin en önemli özelliklerinden biri ise çıtır çıtır olması."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+</androidx.constraintlayout.widget.ConstraintLayout>

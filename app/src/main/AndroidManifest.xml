@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Mobil ara sinav odevi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mobil_araSinav_odevi"
+        tools:targetApi="31">
+        <activity
+            android:name=".MisirTatlisi"
+            android:exported="false" />
+        <activity
+            android:name=".IncirUyutmasi"
+            android:exported="false" />
+        <activity
+            android:name=".YozgatLokmasi"
+            android:exported="false" />
+        <activity
+            android:name=".YoreselTatlilar"
+            android:exported="false" />
+        <activity
+            android:name=".Yozgat_camlik"
+            android:exported="false" />
+        <activity
+            android:name=".Parmak_corek"
+            android:exported="false" />
+        <activity
+            android:name=".CapcupManti"
+            android:exported="false" />
+        <activity
+            android:name=".MayaliBazlama"
+            android:exported="false" />
+        <activity
+            android:name=".YozgatBoregi"
+            android:exported="false" />
+        <activity
+            android:name=".MadimakYemegi"
+            android:exported="false" />
+        <activity
+            android:name=".TestiKebabi"
+            android:exported="false" />
+        <activity
+            android:name=".ArabasiCorbasi"
+            android:exported="false" />
+        <activity
+            android:name=".YoreselYemekler"
+            android:exported="false" />
+        <activity
+            android:name=".CeskaYeraltiSehri"
+            android:exported="false" />
+        <activity
+            android:name=".NizamogluKonagi_Muze"
+            android:exported="false" />
+        <activity
+            android:name=".SaatKulesi"
+            android:exported="false" />
+        <activity
+            android:name=".CapanogluCamii"
+            android:exported="false" />
+        <activity
+            android:name=".BasilicaTherma"
+            android:exported="false" />
+        <activity
+            android:name=".KerkenesHarabeleri"
+            android:exported="false" />
+        <activity
+            android:name=".GelinKayasi"
+            android:exported="false" />
+        <activity
+            android:name=".TarihiYerler"
+            android:exported="false" />
+        <activity
+            android:name=".YozgatTarihcesi"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
