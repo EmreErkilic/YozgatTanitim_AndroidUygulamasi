@@ -1,0 +1,27 @@
+{ "yozgat" : [
+{
+"isim" :"Basilica Therma",
+"aciklama":"Antik Dönem'de Aquae Sarvenae ve Basilica Therma diye adlandırılan Sarıkaya, o dönemde de önemli bir kaplıca merkeziydi",
+"fotourl":"https://github.com/EmreErkilic/YozgatTanitim_AndroidUygulamasi/blob/master/app/src/main/res/drawable/basilica_therma.jpg"
+},
+{
+"isim":"Kerkenes Harabeleri (Kayıp Şehir Pteria)",
+"aciklama":"Antik kaynaklarda Pteria olarak kaydedilen kentin burası olduğu sanılmaktadır. M.Ö. 547 yılında Persler tarafından kent zaptedilmiş halkı esir alınarak kent yakılmış ve surları yıkılmıştır",
+"fotourl":"https://github.com/EmreErkilic/YozgatTanitim_AndroidUygulamasi/blob/master/app/src/main/res/drawable/kerkenes_harabeleri.jpg"
+ },
+{
+"isim" :"Çeşka Yeraltı Şehri",
+"aciklama":"Çeşka Kalesi, yüksek bir tepede kurulmuş bir yeraltı şehridir.",
+"fotourl":"https://github.com/EmreErkilic/YozgatTanitim_AndroidUygulamasi/blob/master/app/src/main/res/drawable/ceska_yeralti_sehri.jpg"
+},
+{
+"isim" :"Nizamoğlu Konağı(Yozgat Müzesi)",
+"aciklama":"Konak 1871 yılında tamamlanmıştır. Zemin katta kısmen taş duvarlı, kalan bütün kısımları ahşap bir binadır.",
+"fotourl":"https://github.com/EmreErkilic/YozgatTanitim_AndroidUygulamasi/blob/master/app/src/main/res/drawable/muze.jpg"
+},
+{
+"isim" :"Çapanoğlu Camii",
+"aciklama":"Çapanoğlu Camii, Osmanlı döneminin Bozok Sancağı valisi Çapanoğlu Mustafa Bey tarafından 1779 tarihinde Yozgat şehir merkezinde yaptırılan cami.",
+"fotourl":"https://github.com/EmreErkilic/YozgatTanitim_AndroidUygulamasi/blob/master/app/src/main/res/drawable/capanoglu_camii.jpg"
+}
+ ]}
